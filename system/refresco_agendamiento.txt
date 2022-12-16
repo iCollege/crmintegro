@@ -1,0 +1,6 @@
+<%
+Response.Expires = 0
+Response.Buffer = True
+'la siguiente linea escribe el encabezado... produciendo el refresh.
+Response.AddHeader "Refresh", "90"
+%>

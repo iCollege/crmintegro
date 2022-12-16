@@ -1,0 +1,2 @@
+Agregar CUSTODIO varchar(50) a tabla CUOTA y CARGA_DEUDA
+Agregar USA_CUSTODIO char(1) a tabla CLIENTE

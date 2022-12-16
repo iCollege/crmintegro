@@ -1,0 +1,79 @@
+.hdr_i		
+{ 
+	font-family: Tahoma, Helvetica, sans-serif; font-size: 11px; font-weight: bold;   
+	background-color: #DFDFDF; vertical-align: middle;   text-align: left ; 
+	border: 1px solid; border-color: #F4F4F4 #F4F4F4 #CCCCCC #CCCCCC; padding-right: 3px; 
+	padding-left: 3px; padding-top: 3px; padding-bottom: 3px;
+}
+
+.td_t		
+{ 	font-family: Tahoma, Helvetica, sans-serif; font-size: 11px; font-weight: normal; 
+	background-color: #FFFFFF; vertical-align: middle; text-align: left  ;  
+	border: 1px solid; border-color: #F4F4F4 #F4F4F4 #CCCCCC #CCCCCC; padding-right: 3px; 
+	padding-left: 3px; padding-top: 1px; padding-bottom: 1px;
+}
+
+.Estilo8
+{
+    FONT-SIZE: xx-small;
+    COLOR: #000000;
+    FONT-FAMILY: tahoma
+}
+.Estilo13
+{
+    FONT-SIZE: x-small;
+    COLOR: #ffffff;
+    FONT-FAMILY: tahoma
+}
+.Estilo20
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: xx-small;
+    COLOR: #ffffff;
+    FONT-FAMILY: tahoma
+}
+.Estilo22
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: xx-small;
+    COLOR: #006699;
+    FONT-FAMILY: tahoma
+}
+.Estilo26
+{
+    FONT-SIZE: xx-small;
+    COLOR: #999999;
+    FONT-FAMILY: tahoma
+}
+.text
+{
+    FONT-SIZE: xx-small;
+    FONT-FAMILY: Tahoma
+}
+INPUT
+{
+    FONT-SIZE: x-small;
+    COLOR: #000000;
+    FONT-FAMILY: Tahoma
+}
+.noline
+{
+    FONT-SIZE: x-small;
+    COLOR: #000000;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none
+}
+SELECT
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Tahoma
+}
+TD
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma
+}
+A:hover
+{
+    TEXT-DECORATION: underline
+}

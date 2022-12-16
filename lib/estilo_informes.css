@@ -1,0 +1,492 @@
+BODY.FondoAdm
+{
+    MARGIN-TOP: 5px;
+    MARGIN-LEFT: 7px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.SycFondoAdm
+{
+    MARGIN-TOP: 5px;
+    MARGIN-LEFT: 7px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.Download
+{
+    MARGIN-TOP: 10px;
+    MARGIN-LEFT: 10px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.Error
+{
+    MARGIN-TOP: 10px;
+    MARGIN-LEFT: 10px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.Superior
+{
+    MARGIN-TOP: 0px;
+    MARGIN-LEFT: 0px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.Contenido
+{
+    MARGIN-TOP: 0px;
+    MARGIN-LEFT: 0px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.Informes
+{
+    MARGIN-TOP: 10px;
+    MARGIN-LEFT: 10px;
+    BACKGROUND-COLOR: #747E97
+}
+BODY.Menu
+{
+    MARGIN-TOP: 5px;
+    MARGIN-LEFT: 10px;
+    BACKGROUND-COLOR: #2f374f
+}
+BODY.FondoToolbar
+{
+    MARGIN-TOP: 0px;
+    MARGIN-LEFT: 0px;
+    BACKGROUND-COLOR: #2f374f
+}
+FONT.UsuarioCliente
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #3cb371;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.Procesando
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #eee8aa;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.Paginacion
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TituloDatos
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	FONT-FAMILY: Arial, sans-serif;
+
+
+}
+FONT.TituloBlanco
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #FFFFFF;
+	FONT-FAMILY: Arial, sans-serif;
+}
+
+FONT.TituloDatosSel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #006666;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.LabelDatos
+{
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.NombreCliente
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #43c400;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TextoDatos
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #333333;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TituloError
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TextoError
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.PieError
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.PieLinkError
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: green;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.Obligatorio
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #eee8aa;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.Mensajes
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #eee8aa;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TituloMenu
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TextoMenu
+{
+    FONT-SIZE: 10px;
+    COLOR: #666666;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.TituloDownload
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.MensajeDownload
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.MensajeDownloadAqui
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.ConOrden
+{
+    FONT-SIZE: 10px;
+    COLOR: yellow;
+    FONT-FAMILY: Verdana, Arial, sans-serif
+}
+FONT.DeudaPorVencer
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #2eb530;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.DeudaVencida
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #d75f5f;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycFontTituloTablaAdm
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #333333;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycFontTextoTablaAdm
+{
+    FONT-SIZE: 10px;
+    COLOR: #333333;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycFontTextoTablaAdm12
+{
+    FONT-SIZE: 12px;
+    COLOR: #993300;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycFontTotalTablaAdm
+{
+    FONT-SIZE: 12px;
+    COLOR: #333333;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycLabelTextoAdm
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycLabelPagina
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.FontLabelToolbar
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.FontLabelToolbarSel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #7b8b9c;
+    FONT-FAMILY: Verdana, Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.separador
+{
+    FONT-SIZE: 1px;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.SycFontTextoTablaAdmTotal
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #330033;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+A
+{
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+A.Arbol
+{
+    FONT-SIZE: 10px;
+    COLOR: #32cd32;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+A.Hoja
+{
+    FONT-SIZE: 10px;
+    COLOR: fuchsia;
+    FONT-FAMILY: Verdana, Arial, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+A.SinSubrayado
+{
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+INPUT
+{
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: white 1px solid;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: white 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: white 1px solid;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: #7b8b9c
+}
+SELECT
+{
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: white 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: white 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: white 1px solid;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: #7b8b9c
+}
+SELECT.seleccion
+{
+    WIDTH: 100%
+}
+TABLE.SycFondoTableAdm
+{
+    BORDER-RIGHT: white 1px solid;
+    BORDER-TOP: white 1px solid;
+    BORDER-LEFT: white 1px solid;
+    BORDER-BOTTOM: white 1px solid
+}
+TABLE.Informe
+{
+    BORDER-RIGHT: black 2px solid;
+    BORDER-TOP: black 2px solid;
+    BORDER-LEFT: black 2px solid;
+    BORDER-BOTTOM: black 2px solid;
+    BACKGROUND-COLOR: white
+}
+TD.BordeTabla
+{
+    BACKGROUND-COLOR: #7b8b9c
+}
+TD.DatosDeduor
+{
+    BACKGROUND-COLOR: #DFDFDF
+}
+TD.DatosBlanco
+{
+    BACKGROUND-COLOR: #FFFFFF
+}
+
+TD.DatosDeudorTexto
+{
+    BACKGROUND-COLOR: #EFEFEF
+}
+TR.SycFondoTitTabAdm
+{
+    BACKGROUND-COLOR: #DFDFDF
+}
+TR.SycFondoLineaTabAdm
+{
+    BACKGROUND-COLOR: #EFEFEF
+}
+LI.DeudaPorVencer
+{
+    FONT-WEIGHT: bold;
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: 10px;
+    COLOR: #2eb530;
+    FONT-FAMILY: Arial, sans-serif;
+    LIST-STYLE-TYPE: circle;
+    BACKGROUND-COLOR: transparent
+}
+LI.DeudaVencida
+{
+    FONT-WEIGHT: bold;
+    LIST-STYLE-POSITION: outside;
+    FONT-SIZE: 10px;
+    COLOR: #ff4d4d;
+    FONT-FAMILY: Arial, sans-serif;
+    LIST-STYLE-TYPE: circle;
+    BACKGROUND-COLOR: transparent
+}
+TR.InfTit
+{
+    BACKGROUND-COLOR: #eee8aa
+}
+TR.InfText
+{
+    BACKGROUND-COLOR: #bbffbd
+}
+FONT.InfTitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: black;
+    FONT-FAMILY: "MS Sans Serif", sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfSubTitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: "MS Sans Serif", sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfDireccion
+{
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfTitTabla
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfTitTexto
+{
+    FONT-SIZE: 12px;
+    COLOR: #006634;
+    FONT-FAMILY: Verdana, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfTabTexto
+{
+    FONT-SIZE: 12px;
+    COLOR: #003300;
+    FONT-FAMILY: Verdana, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfTabTextoBold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #003300;
+    FONT-FAMILY: Verdana, sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfLabel
+{
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: "MS Sans Serif", sans-serif;
+    BACKGROUND-COLOR: transparent
+}
+FONT.InfDatos
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: black;
+    FONT-FAMILY: "MS Sans Serif", sans-serif;
+    BACKGROUND-COLOR: transparent
+}
