@@ -494,11 +494,11 @@ body {
 					<td >PATENTE</td><td  class="Estilo13">IC</td><td>MONTO ASIGNADO</td><td>DIAS DE MORA</td><td>MARCA</td>
 				</tr>
 				<tr bgcolor="#<%=session("COLTABBG2")%>" class="Estilo8">
-					<td><%=rut_patente%></td>
-					<td><%=ic%></td>
-					<td><strong><%=monto_deuda%></strong></td>
-					<td><%=dias_de_mora%></td>
-					<td><font color='red'><strong><%=marca%></strong></font></td>
+					<td><%if request.form("rut_patente") then Response.write rut_patente End if%></td>
+					<td><%if request.form("ic") then Response.write ic End if%></td>
+					<td><strong><%if request.form("monto_deuda") then Response.write monto_deuda End if%></strong></td>
+					<td><%if request.form("dias_de_mora") then Response.write dias_de_mora End if%></td>
+					<td><font color='red'><strong><%if request.form("marca") then Response.write marca End if%></strong></font></td>
 				</tr>
 				</table>
 
@@ -1244,15 +1244,12 @@ body {
 
 
 function telus() {
-var ruti=document.getElementById('rut');
-
-myRef = window.open('https://www.servipag.com/wps/portal/servipag/home/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLd_YyCvTzNPJyD_fzNDTyNvY3dAkxCjC38zIAKIoEKDHAARwNC-sP1o_ArMYEqwGOFn0d-bqp-QW6EQZaJoyIAZ4d8Fw!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2GQ5N3A5EL6N80A0OU0AF030G1/act/id=0/287276983881/-/?idAccionIdentificador=P&servicios=0&billers=0&TipoBusqueda=N&IntTipoBusqueda=0&array=11%2C130%2C'+ruti.value);
-
-
-dataLayer.push({'event': 'voyaservipag'});
-}
+    var ruti=document.getElementById('rut');
+    myRef = window.open('https://www.servipag.com/wps/portal/servipag/home/!ut/p/b1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLd_YyCvTzNPJyD_fzNDTyNvY3dAkxCjC38zIAKIoEKDHAARwNC-sP1o_ArMYEqwGOFn0d-bqp-QW6EQZaJoyIAZ4d8Fw!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_2GQ5N3A5EL6N80A0OU0AF030G1/act/id=0/287276983881/-/?idAccionIdentificador=P&servicios=0&billers=0&TipoBusqueda=N&IntTipoBusqueda=0&array=11%2C130%2C'+ruti.value);
+    dataLayer.push({'event': 'voyaservipag'});
     myRef.focus();
-        myRef.blur();
+    myRef.blur();
+}
     
 
 
