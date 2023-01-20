@@ -88,6 +88,9 @@ If strArchivo <> "" Then
 	strSql = "SELECT * FROM TMP_DEUDOR_PATENTE"
 	set rsTemp= Conn.execute(strSql)
 	
+	strSqlPAT = "INSERT INTO DEUDOR_PATENTE(RUT, PATENTE) SELECT RUT, PATENTE FROM TMP_DEUDOR_PATENTE"
+	Conn.execute(strSqlPAT)
+	
 	Do While not rsTemp.eof
 		
 
