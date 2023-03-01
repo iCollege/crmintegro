@@ -143,33 +143,34 @@ a:hover {
 
 	strSql="SELECT CUENTA, NRODOC, IsNull(FECHAVENC,'01/01/1900'), IsNull(datediff(d,fechavenc,getdate()),0) , TIPODOCUMENTO, CODREMESA , VALORCUOTA, SALDO, USUARIO.LOGIN , ESTADO_DEUDA.DESCRIPCION"
 	strSql=strSql & " FROM CUOTA , USUARIO , ESTADO_DEUDA WHERE RUTDEUDOR = '" & strRutDeudor & "' AND CODCLIENTE = '" & intCodCliente & "'"
-	strSql=strSql & " AND CUOTA.USUARIO_ASIG *= USUARIO.ID_USUARIO AND CUOTA.ESTADO_DEUDA *= ESTADO_DEUDA.CODIGO"
+	strSql=strSql & " AND CUOTA.USUARIO_ASIG = USUARIO.ID_USUARIO AND CUOTA.ESTADO_DEUDA = ESTADO_DEUDA.CODIGO"
 
 	'response.write "<br>strSql=" & strSql
 	'Response.End
-	set rsDET=Conn.execute(strSql)
-	intTotHonorarios=0
-	intTotIndemComp=0
-	intTotDeudaCapital = 0
-	if not rsDET.eof then
-		intColumnas = rsDET.Fields.Count - 1
-		intSaldo = 0
-		intValorCuota = 0
-		total_ValorCuota = 0
-		''rsDET.movenext
-		Do until rsDET.eof
-			'Response.write "7=" & (rsDET(7))
-			'Response.write "8=" & (rsDET(8))
-			'Response.write "9=" & (rsDET(9))
-			'Response.End
-			'intTotIndemComp = intTotIndemComp + clng(rsDET(7))
-			'intTotHonorarios = intTotHonorarios + clng(rsDET(8))
-			intTotDeudaCapital = intTotDeudaCapital + Round(session("valor_moneda") * ValNulo(clng(rsDET(7)),"N"),0)
+	
+		set rsDET=Conn.execute(strSql)
+		intTotHonorarios=0
+		intTotIndemComp=0
+		intTotDeudaCapital = 0
+		if not rsDET.eof then
+			intColumnas = rsDET.Fields.Count - 1
+			intSaldo = 0
+			intValorCuota = 0
+			total_ValorCuota = 0
+			''rsDET.movenext
+			Do until rsDET.eof
+				'Response.write "7=" & (rsDET(7))
+				'Response.write "8=" & (rsDET(8))
+				'Response.write "9=" & (rsDET(9))
+				'Response.End
+				'intTotIndemComp = intTotIndemComp + clng(rsDET(7))
+				'intTotHonorarios = intTotHonorarios + clng(rsDET(8))
+				intTotDeudaCapital = intTotDeudaCapital + Round(session("valor_moneda") * ValNulo(clng(rsDET(7)),"N"),0)
 
-			rsDET.movenext
-		Loop
-	end if
-	rsDET.close
+				rsDET.movenext
+			Loop
+		end if
+		rsDET.close
 	set rsDET=nothing
 
 
